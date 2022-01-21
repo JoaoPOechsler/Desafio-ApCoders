@@ -5,7 +5,7 @@ Projeto baseado no padrão MVC, utilizando telas simples e intuitivas para facil
 Recursos utilizados: PHP 7.4, Yii Framework, mySQL com phpMyAdmin e DBDesigner 4(Modelagem do Banco de dados)
 
 Php: https://www.php.net/
-Phreeze: http://phreeze.com/phreeze/documentation/
+Yii2 Framework: https://www.yiiframework.com/doc/guide/2.0/pt-br
 mySQL: https://www.mysql.com/
 phpMyAdmin: https://www.phpmyadmin.net/
 DBDesigner 4: https://dbmstools.com/tools/dbdesigner-4
@@ -33,16 +33,21 @@ Atenção, caso ocorra algum erro durante a instalação pelo setup habilite a c
 
 ## Instalando o Banco de dados utilizado:
 
-Primeiro você deve criar um banco de dados com o nome ```bdapcoders``` em ```utf8_unicode_ci``` np phpMyAdmin, após isso localize a aba importar com o banco de dados selecionado e importe o arquivo dentro do projeto com o nome de: ```bdapcoders.sql``` na aba importar deixe exatamente dessa forma:
+Primeiro você deve criar um banco de dados com o nome ```bdapcoders``` em ```utf8_unicode_ci``` no phpMyAdmin ou SGBD de preferencia, após isso localize a aba importar com o banco de dados selecionado e importe o arquivo dentro do projeto com o nome de: ```bdapcoders.sql``` na aba importar deixe exatamente dessa forma:
 ![image](https://user-images.githubusercontent.com/54291049/149548734-37f79cd9-4d54-497d-9257-ae86c5f28ef9.png)
+
+Caso não funcione pela importação, selecione o Banco de dados criado e Importe o comando SQL do arquivo ```bdapcoders.sql``` 
 
 # Acessando a aplicação:
 
-Utilize o comando ```git clone https://github.com/JoaoPOechsler/apcoders.git``` no cmd ou terminal
+Utilize o comando ```git clone https://github.com/JoaoPOechsler/Desafio-ApCoders.git``` no cmd ou terminal
 
 Com o painel do Xampp aberto inicie os seviços do ```Apache``` e ```mySql```.
 
 Obs: a porta do mySQL deve estar como 3306 (padrão)
+
+Após isso abra o CMD ou Terminal, entre na pasta do projeto através do comando ```cd```, com o diretorio aberto do cmd digite:```php yii serve```, feito isso você pode acessar a aplicação em 
+http://localhost:8080
 
 E pronto! Agora é só utilizar como quiser. :)
 
