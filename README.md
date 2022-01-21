@@ -1,5 +1,7 @@
 # Desafio Ap Coders
 
+![image](https://user-images.githubusercontent.com/54291049/150613998-5f2ed8a3-d8e9-49b8-abde-7125382bbc58.png)
+
 Projeto baseado no padrão MVC, utilizando telas simples e intuitivas para facilitar seu uso. 
 
 Recursos utilizados: PHP 7.4, Yii Framework, mySQL com phpMyAdmin e DBDesigner 4(Modelagem do Banco de dados)
