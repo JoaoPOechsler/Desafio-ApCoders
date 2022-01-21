@@ -37,8 +37,6 @@ Utilize o comando ```git clone https://github.com/JoaoPOechsler/Desafio-ApCoders
 
 Com o painel do Xampp aberto inicie os seviços do ```Apache``` e ```mySql```.
 
-Obs: a porta do mySQL deve estar como 3306 (padrão)
-
 ### Instalando o Banco de dados utilizado:
 
 Você deve criar um banco de dados com o nome ```bdapcoders``` em ```utf8_unicode_ci``` no phpMyAdmin ou SGBD de preferencia, após isso localize a aba importar com o banco de dados selecionado e importe o arquivo dentro do projeto com o nome de: ```bdapcoders.sql``` na aba importar deixe exatamente dessa forma:
@@ -53,7 +51,7 @@ http://localhost:8080
 
 E pronto! Agora é só utilizar como quiser. :)
 
-# Possivel erro:
+# Possivel erro (Banco de dados):
 
 Ao tentar entrar em uma pagina o seguinte erro pode ser exibido:
 
