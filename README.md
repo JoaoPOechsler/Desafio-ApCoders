@@ -1,7 +1,5 @@
 # Desafio Ap Coders
 
-![image](https://user-images.githubusercontent.com/54291049/150613998-5f2ed8a3-d8e9-49b8-abde-7125382bbc58.png)
-
 Projeto baseado no padrão MVC, utilizando telas simples e intuitivas para facilitar seu uso. 
 
 Recursos utilizados: PHP 7.4, Yii Framework, mySQL com phpMyAdmin e DBDesigner 4(Modelagem do Banco de dados)
@@ -63,7 +61,7 @@ SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
 Caused by: PDOException
 SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
 
-Esse erro é por causa da senha utilizada em ```config/db.php``` para resolver vocẽ tem que colocar sua senha do banco de dados no campo ```'password' => '',```
+Esse erro é por causa da senha do banco de dados mysql utilizada em ```config/db.php``` para resolver vocẽ tem que colocar sua senha do banco de dados no campo ```'password' => '',```
 após isso é so rodar a aplicação novamente
 
 
