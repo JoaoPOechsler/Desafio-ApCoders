@@ -53,7 +53,7 @@ http://localhost:8080
 
 E pronto! Agora é só utilizar como quiser. :)
 
-# Problemas:
+# Possivel erro:
 
 Ao tentar entrar em uma pagina o seguinte erro pode ser exibido:
 
