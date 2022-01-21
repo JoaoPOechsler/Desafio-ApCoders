@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model app\models\InquilinoModel */
 
 $this->title = 'Editar Inquilino: ' . $model->nome_inquilino;
-$this->params['breadcrumbs'][] = ['label' => 'Inquilino Models', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Inquilinos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->nome_inquilino, 'url' => ['view', 'nome_inquilino' => $model->nome_inquilino]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
@@ -17,5 +17,7 @@ $this->params['breadcrumbs'][] = 'Update';
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>
+
+    <a href="http://localhost:8080/index.php?r=inquilino%2Findex" class="btn btn-danger float-start">Cancelar</a>
 
 </div>

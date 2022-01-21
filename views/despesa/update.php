@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\DespesaModel */
 
-$this->title = 'Update Despesa Model: ' . $model->descricao;
+$this->title = 'Editar Despesa: ' . $model->descricao;
 $this->params['breadcrumbs'][] = ['label' => 'Despesas', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->descricao, 'url' => ['view', 'descricao' => $model->descricao]];
 $this->params['breadcrumbs'][] = 'Update';
@@ -17,5 +17,7 @@ $this->params['breadcrumbs'][] = 'Update';
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>
+
+    <a href="http://localhost:8080/index.php?r=despesa%2Findex" class="btn btn-danger float-start">Cancelar</a>
 
 </div>

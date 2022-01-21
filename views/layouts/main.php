@@ -62,10 +62,15 @@ AppAsset::register($this);
 
 <footer class="footer mt-auto py-3 text-muted">
     <div class="container">
-        <p class="float-left">&copy; Ap Coders <?= date('Y') ?></p>
-        <p class="float-right"><?= Yii::powered() ?></p>
+        <p class="text-center">&copy; João Pedro Oechsler - Ap Coders <?= date('Y') ?></p>
     </div>
 </footer>
+
+<?php 
+if (class_exists('yii\debug\Module')) {
+    $this->off(\yii\web\View::EVENT_END_BODY, [\yii\debug\Module::getInstance(), 'renderToolbar']);
+}
+?>
 
 <style>
     .bg-nav {

@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model app\models\InquilinoModel */
 
 $this->title = 'Cadastrar Inquilino';
-$this->params['breadcrumbs'][] = ['label' => 'Inquilino Models', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Inquilinos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="inquilino-model-create">
@@ -16,5 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>
+
+    <a href="http://localhost:8080/index.php?r=inquilino%2Findex" class="btn btn-danger float-start">Cancelar</a>
 
 </div>

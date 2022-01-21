@@ -17,4 +17,6 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
     ]) ?>
 
+    <a href="http://localhost:8080/index.php?r=despesa%2Findex" class="btn btn-danger float-start">Cancelar</a>
+
 </div>

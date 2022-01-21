@@ -9,7 +9,7 @@ $this->title = 'Ap Coders';
 <div class="site-index">
 
     <div class="jumbotron text-center bg-transparent">
-        <h1 class="display-4">Desafio ApCoders</h1>
+        <h1 class="display-4" style="margin-top: 36px;">Desafio ApCoders</h1>
 
         <p class="lead">Sistema para gerenciar unidades, inquilinos e despesas</p>
     </div>
@@ -32,7 +32,7 @@ $this->title = 'Ap Coders';
                 <p><a class="btn bg-btn" href="http://localhost:8080/index.php?r=unidade%2Findex">Gerenciar &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Unidades</h2>
+                <h2>Despesas</h2>
 
                 <p>Tela para o gerenciamento de Despesas</p>
 
