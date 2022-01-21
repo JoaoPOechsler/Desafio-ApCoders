@@ -31,13 +31,6 @@ Atenção, caso ocorra algum erro durante a instalação pelo setup habilite a c
 
 ![image](https://user-images.githubusercontent.com/54291049/149763005-32bf2e3d-ac40-4bae-8169-4c6ee174550c.png)
 
-## Instalando o Banco de dados utilizado:
-
-Primeiro você deve criar um banco de dados com o nome ```bdapcoders``` em ```utf8_unicode_ci``` no phpMyAdmin ou SGBD de preferencia, após isso localize a aba importar com o banco de dados selecionado e importe o arquivo dentro do projeto com o nome de: ```bdapcoders.sql``` na aba importar deixe exatamente dessa forma:
-![image](https://user-images.githubusercontent.com/54291049/149548734-37f79cd9-4d54-497d-9257-ae86c5f28ef9.png)
-
-Caso não funcione pela importação, selecione o Banco de dados criado e Importe o comando SQL do arquivo ```bdapcoders.sql``` 
-
 # Acessando a aplicação:
 
 Utilize o comando ```git clone https://github.com/JoaoPOechsler/Desafio-ApCoders.git``` no cmd ou terminal
@@ -46,8 +39,17 @@ Com o painel do Xampp aberto inicie os seviços do ```Apache``` e ```mySql```.
 
 Obs: a porta do mySQL deve estar como 3306 (padrão)
 
+### Instalando o Banco de dados utilizado:
+
+Você deve criar um banco de dados com o nome ```bdapcoders``` em ```utf8_unicode_ci``` no phpMyAdmin ou SGBD de preferencia, após isso localize a aba importar com o banco de dados selecionado e importe o arquivo dentro do projeto com o nome de: ```bdapcoders.sql``` na aba importar deixe exatamente dessa forma:
+![image](https://user-images.githubusercontent.com/54291049/149548734-37f79cd9-4d54-497d-9257-ae86c5f28ef9.png)
+
+Caso não funcione pela importação, selecione o Banco de dados criado e Importe o comando SQL do arquivo ```bdapcoders.sql``` 
+
 Após isso abra o CMD ou Terminal, entre na pasta do projeto através do comando ```cd```, com o diretorio aberto do cmd digite:```php yii serve```, feito isso você pode acessar a aplicação em 
 http://localhost:8080
+
+![image](https://user-images.githubusercontent.com/54291049/150614303-3c940c40-8576-4bf8-8695-fcffc85bd759.png)
 
 E pronto! Agora é só utilizar como quiser. :)
 
