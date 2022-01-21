@@ -70,7 +70,7 @@ return [
     'You can upload at most {limit, number} {limit, plural, one{file} other{files}}.' => '您最多可以上載 {limit, number} 個檔案。',
     'the input value' => '該輸入',
     '{attribute} "{value}" has already been taken.' => '{attribute} 的值 "{value}" 已經被佔用了。',
-    '{attribute} cannot be blank.' => '{attribute} 不能為空白。',
+    '{attribute} Não pode ficar em branco' => '{attribute} 不能為空白。',
     '{attribute} contains wrong subnet mask.' => '{attribute} 屬性包含錯誤的子網掩碼。',
     '{attribute} is invalid.' => '{attribute} 不正確。',
     '{attribute} is not a valid URL.' => '{attribute} 不是一個正確的網址。',

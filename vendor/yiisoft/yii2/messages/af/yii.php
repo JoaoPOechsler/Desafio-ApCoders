@@ -81,7 +81,7 @@ return [
     'just now' => 'netnou',
     'the input value' => 'die insetwaarde',
     '{attribute} "{value}" has already been taken.' => '{attribute} "{value}" is reeds geneem.',
-    '{attribute} cannot be blank.' => '{attribute} kan nie leeg wees nie.',
+    '{attribute} Não pode ficar em branco' => '{attribute} kan nie leeg wees nie.',
     '{attribute} contains wrong subnet mask.' => '{attribute} bevat verkeerde subnetmasker.',
     '{attribute} is invalid.' => '{attribute} is nie geldig nie.',
     '{attribute} is not a valid URL.' => '{attribute} is nie \'n geldige webadres nie.',
