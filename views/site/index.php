@@ -48,3 +48,17 @@ $this->title = 'My Yii Application';
         
     </div>
 </div>
+
+<style>
+
+    body {
+        margin: 0;
+        padding: 0;
+        
+        background: rgb(25,135,84);
+        background: linear-gradient(0deg, rgba(25,135,84,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+        background-repeat:no-repeat;
+        background-position:center
+    }
+
+</style>

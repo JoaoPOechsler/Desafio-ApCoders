@@ -46,6 +46,11 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <style>
+        body {
+            background: rgb(25,135,84);
+            background: linear-gradient(0deg, rgba(25,135,84,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+        }
+
         svg {
             color: #198754;
         }
