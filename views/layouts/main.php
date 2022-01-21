@@ -32,7 +32,7 @@ AppAsset::register($this);
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-expand-xl|lg|md|sm  navbar-light bg-success fixed-top',
+            'class' => 'navbar-expand-xl|lg|md|sm fixed-top navbar-dark bg-nav fixed-top',
         ],
     ]);
     echo Nav::widget([
@@ -66,6 +66,52 @@ AppAsset::register($this);
         <p class="float-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
+
+<style>
+    .bg-nav {
+        background-color: #7f3acd;
+        color: white;
+    }
+
+    .bg-btn {
+        background-color: #7f3acd;
+        color: white;
+    }
+
+    .bg-btn:hover {
+        background-color: #7f3acd;
+        color: white;
+    }
+
+    svg {
+        color: #7f3acd;
+    }
+
+    th a{
+        color: #7f3acd;
+    }
+
+    li a{
+        color: #7f3acd;
+    }
+
+    td a{
+        color: #212529;
+    }
+
+    li a:hover {
+        color: #212529;
+    }
+
+    th a:hover {
+        color: #212529;
+    }
+
+    td a:hover {
+        color: #7f3acd;
+    }
+
+</style>
 
 <?php $this->endBody() ?>
 </body>

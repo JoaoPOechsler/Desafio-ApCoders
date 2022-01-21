@@ -14,10 +14,10 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="inquilino-model-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 style="margin-top: 36px;"><?= Html::encode($this->title) ?></h1>
 
     <p>
-        
+        <?= Html::a('Cadastrar Inquilino', ['create'], ['class' => 'btn bg-btn']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -44,30 +44,14 @@ $this->params['breadcrumbs'][] = $this->title;
     ]); ?>
 
     <p>
-        <?= Html::a('Cadastrar Inquilino', ['create'], ['class' => 'btn btn-outline-success float-end']) ?>
+        
     </p>
 
     <style>
 
         body {
-            background: rgb(25,135,84);
-            background: linear-gradient(0deg, rgba(25,135,84,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
-        }
-        
-        svg {
-            color: #198754;
-        }
-
-        th a{
-            color: #198754;
-        }
-
-        li a{
-            color: #198754;
-        }
-
-        td a{
-            color: #212529;
+            background: rgb(127,58,205);
+            background: linear-gradient(0deg, rgba(127,58,205,1) 0%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
         }
 
     </style>

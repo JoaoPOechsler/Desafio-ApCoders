@@ -4,7 +4,7 @@
 
 use kartik\widgets\SideNav;
 
-$this->title = 'My Yii Application';
+$this->title = 'Ap Coders';
 ?>
 <div class="site-index">
 
@@ -20,29 +20,23 @@ $this->title = 'My Yii Application';
             <div class="col-lg-4">
                 <h2>Inquilinos</h2>
 
-                <p>Tela para o gerenciamento de inquilinos</p>
+                <p>Tela para o gerenciamento de Inquilinos</p>
 
-                <p><a class="btn btn-outline-success" href="http://localhost:8080/index.php?r=inquilino%2Findex">Gerenciar &raquo;</a></p>
+                <p><a class="btn bg-btn" href="http://localhost:8080/index.php?r=inquilino%2Findex">Gerenciar &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2>Unidades</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Tela para o gerenciamento de Unidades</p>
 
-                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+                <p><a class="btn bg-btn" href="http://localhost:8080/index.php?r=unidade%2Findex">Gerenciar &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2>Unidades</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Tela para o gerenciamento de Despesas</p>
 
-                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <p><a class="btn bg-btn" href="http://localhost:8080/index.php?r=despesa%2Findex">Gerenciar &raquo;</a></p>
             </div>
         </div>
         
@@ -55,8 +49,8 @@ $this->title = 'My Yii Application';
         margin: 0;
         padding: 0;
         
-        background: rgb(25,135,84);
-        background: linear-gradient(0deg, rgba(25,135,84,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+        background: rgb(127,58,205);
+        background: linear-gradient(0deg, rgba(127,58,205,1) 0%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
         background-repeat:no-repeat;
         background-position:center
     }
