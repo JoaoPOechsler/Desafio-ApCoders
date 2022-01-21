@@ -44,9 +44,9 @@ class UnidadeModel extends \yii\db\ActiveRecord
     {
         return [
             'unidade' => 'Unidade',
-            'propietario' => 'Propietario',
+            'propietario' => 'Propietário',
             'condominio' => 'Condominio',
-            'endereco' => 'Endereco',
+            'endereco' => 'Endereço',
         ];
     }
 

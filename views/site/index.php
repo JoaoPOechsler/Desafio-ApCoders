@@ -22,21 +22,21 @@ $this->title = 'Ap Coders';
 
                 <p>Tela para o gerenciamento de Inquilinos</p>
 
-                <p><a class="btn bg-btn" href="http://localhost:8080/index.php?r=inquilino%2Findex">Gerenciar &raquo;</a></p>
+                <p><a class="btn bg-btn" href="/index.php?r=inquilino%2Findex">Gerenciar &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Unidades</h2>
 
                 <p>Tela para o gerenciamento de Unidades</p>
 
-                <p><a class="btn bg-btn" href="http://localhost:8080/index.php?r=unidade%2Findex">Gerenciar &raquo;</a></p>
+                <p><a class="btn bg-btn" href="/index.php?r=unidade%2Findex">Gerenciar &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Despesas</h2>
 
                 <p>Tela para o gerenciamento de Despesas</p>
 
-                <p><a class="btn bg-btn" href="http://localhost:8080/index.php?r=despesa%2Findex">Gerenciar &raquo;</a></p>
+                <p><a class="btn bg-btn" href="/index.php?r=despesa%2Findex">Gerenciar &raquo;</a></p>
             </div>
         </div>
         

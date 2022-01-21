@@ -43,7 +43,7 @@ class InquilinoModel extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'nome_inquilino' => 'Nome Inquilino',
+            'nome_inquilino' => 'Nome',
             'idade' => 'Idade',
             'sexo' => 'Sexo',
             'telefone' => 'Telefone',

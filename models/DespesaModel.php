@@ -49,9 +49,9 @@ class DespesaModel extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'descricao' => 'Descricao',
+            'descricao' => 'Descrição',
             'unidade_unidade' => 'Unidade',
-            'tipo_despesa' => 'Tipo Despesa',
+            'tipo_despesa' => 'Tipo da Despesa',
             'valor' => 'Valor',
             'vencimento_da_fatura' => 'Vencimento Da Fatura',
             'status_pagamento' => 'Status Pagamento',

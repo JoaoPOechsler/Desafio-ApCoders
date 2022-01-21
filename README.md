@@ -51,3 +51,17 @@ http://localhost:8080
 
 E pronto! Agora é só utilizar como quiser. :)
 
+# Problemas:
+
+Ao tentar entrar em uma pagina o seguinte erro pode ser exibido:
+
+```Database Exception – yii\db\Exception
+SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+↵
+Caused by: PDOException
+SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'```
+
+Esse erro é por causa da senha utilizada em ```config/db.php``` para resolver vocẽ tem que colocar sua senha do banco de dados no campo ```'password' => '',```
+após isso é so rodar a aplicação novamente
+
+
